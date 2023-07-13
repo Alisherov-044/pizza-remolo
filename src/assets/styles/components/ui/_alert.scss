@@ -1,0 +1,16 @@
+.alert {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 5px;
+    color: #fff;
+    background-color: $red-color;
+    border-radius: 4px;
+    opacity: 0;
+    transition: all .2s ease;
+
+    &.active {
+        opacity: 1;
+    }
+}

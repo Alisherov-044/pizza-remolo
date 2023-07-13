@@ -1,0 +1,24 @@
+.icon {
+    @include d-flex-center();
+    position: relative;
+    padding: 5px;
+    cursor: pointer;
+
+    &__burger {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+        width: 34px;
+        height: 30px;
+
+        .line {
+            width: 100%;
+            border: 2px solid $icon-color;
+            border-radius: 5px;
+
+            &:last-child {
+                width: 70%;
+            }
+        }
+    }
+}

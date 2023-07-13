@@ -1,0 +1,27 @@
+.button {
+    position: relative;
+    padding: .7rem 1.4rem;
+    font-size: 1rem;
+    line-height: 110%;
+    color: #fff;
+    background-color: $dark-grey-color;
+    border-radius: 20px;
+
+    &.table__button {
+        padding: 6px 12px;
+        border-radius: 5px;
+
+        &.edit,
+        &.submit {
+            background-color: $blue-color;
+        }
+
+        &.delete {
+            background-color: $red-color;
+        }
+
+        &.add {
+            background-color: $green-color;
+        }
+    }
+}

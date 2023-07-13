@@ -1,0 +1,8 @@
+/**********************
+** Pages List Styles **
+**********************/
+.pages__list {
+    @include d-flex(column, unset, unset);
+    gap: 40px;
+    position: relative;
+}

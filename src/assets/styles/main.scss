@@ -1,0 +1,36 @@
+@import './mixins/mixins';
+@import './base/variables';
+@import './base/core';
+@import './components/ui/button';
+@import './components/ui/table';
+@import './components/ui/logo';
+@import './components/ui/icon';
+@import './components/ui/loading';
+@import './components/ui/alert';
+@import './components/ui/modal';
+@import './components/ui/drawer';
+@import './components/form/formGroup';
+@import './components/card/categoryCard';
+@import './components/card/pageCard';
+@import './components/card/card';
+@import './components/card/miniCard';
+@import './layouts/aside';
+@import './components/lists/cartProductsList';
+@import './components/lists/categoriesList';
+@import './components/lists/pagesList';
+@import './components/lists/productsList';
+@import './layouts/header';
+@import './pages/notFound';
+@import './pages/login';
+@import './pages/settings';
+@import './pages/products';
+@import './pages/categories';
+@import './pages/home';
+
+.main__layout {
+    @include d-flex(row, unset, unset);
+
+    .main {
+        flex: 1 1 auto;
+    }
+}

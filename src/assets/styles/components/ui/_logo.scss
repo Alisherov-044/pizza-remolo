@@ -1,0 +1,12 @@
+.logo {
+    @include d-flex(row, center, unset);
+    gap: .5rem;
+
+    &__img {
+        width: 76px;
+    }
+
+    &__text {
+        width: 134px;
+    }
+}
